@@ -72,5 +72,9 @@
 <div><input type="text" style="height:50px;"/></div>
 <div><input type="text" style="height:50px;"/></div>
 <div><input type="text" style="height:50px;"/></div>
+<script src="js/jquery-1.11.3.js"></script>
+<script>
+  $('input').on('focus',function(){     $(window).scrollTop($(this).offset().top); })
+</script>
 </body>
 </html>
